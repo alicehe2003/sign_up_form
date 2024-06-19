@@ -78,8 +78,11 @@ p.credits {
     align-items: center;
     justify-content: center;
     position: relative; 
+    min-width: 400px; 
 }
 
 .right {
     flex: 1; 
+    display: flex;
+    flex-grow: 2; 
 }
