@@ -84,5 +84,29 @@ p.credits {
 .right {
     flex: 1; 
     display: flex;
+    flex-direction: column;
     flex-grow: 2; 
+}
+
+.top_text {
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    padding: 50px; 
+    padding-top: 100px; 
+    background-color: rgb(240, 242, 244);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.name_info, .contact_info, .password {
+    display: flex;
+    flex-direction: row;
+}
+
+.set {
+    display: flex;
+    flex-direction: column;
 }
